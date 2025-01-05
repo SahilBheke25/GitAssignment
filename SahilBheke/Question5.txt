@@ -1,0 +1,1 @@
+Why is it not possible to create two branches with the names `fix` and `fix/bug` in a Git repository, and what causes this conflict?
