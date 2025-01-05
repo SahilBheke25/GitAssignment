@@ -1,1 +1,7 @@
 Why is it not possible to create two branches with the names `fix` and `fix/bug` in a Git repository, and what causes this conflict?
+Ans) We cannot create two branches simultaneously with the name fix and fix/bug due to the name fix and fix/bug because of how Git organizes and stores the branch references in its internal directory structure.
+
+Conflict:
+If we create fix branch we cannot create fix/bug branch because git creates a file .git/refs/heads/fix to store reference to the commit that fix points to.
+If we later try to create a branch named fix/bug, Git tries to create a directory .git/refs/heads/fix to hold the bug file inside it. However, since fix is already a files, this results in a conflict.
+Similarly, conflict occur if we create branch named fix/bug and later attempt to created branch named fix.
