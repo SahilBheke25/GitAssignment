@@ -1,0 +1,12 @@
+What does the git `ls-files` command do, and what information does its output provide regarding the state of files in a Git repository?
+
+git ls-files give the list of all the files which are tracked by the git in that branch such that files which are staged or committed. Except the deleted files which are staged. It also list the subdirectories and files.
+If a file is created and not staged it will not show that file.
+If a file is created and staged it will show the file.
+If a file is deleted and not staged it will show the file.
+If a file is deleted and staged it will not show the file.
+
+Whereas, git status only shows the modified, deleted and new files which are not committed.
+
+command: git ls-status
+

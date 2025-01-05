@@ -1,0 +1,19 @@
+How to set multiple remote repositories for the same project? Explain the use case. you should have a working demo of it.
+Ans) We can set multiple remote by using below command.
+git remote add <remote-name> <remote-url>
+
+For example:
+
+git remote add origin https://github.com/SahilBheke25/GitAssignment.git
+
+git remote add gitlab https://gitlab.com/trainee4052801/GitAssignment.git
+
+We can also check the remote available by using following command.
+git remote -v
+
+
+Use case:
+1) Primary remote hosted on GitHub(origin) can be used as open-source contributions.
+   Secondary remote hosted on GitLab(GitLab) can be used for internal backups and testing.
+2) Backup: If one remote is unavailable, we have a complete mirror of the repository on different platform.
+3) Collaboration: Some collaborators might prefer different platforms.
