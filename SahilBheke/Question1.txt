@@ -7,4 +7,5 @@ Conflict can be resolved by:
 In my case git preserved the updated file in the feature branch.
 As git assumed that the modification done in the feature branch is more recent.
 
-
+Merge command is-
+git merge <branch-name>

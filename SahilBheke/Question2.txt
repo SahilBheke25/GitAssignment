@@ -4,9 +4,12 @@ git remote add <remote-name> <remote-url>
 
 For example:
 
-git remote add origin  https://github.com/SahilBheke25/GitAssignment.git
+git remote add origin https://github.com/SahilBheke25/GitAssignment.git
 
 git remote add gitlab https://gitlab.com/trainee4052801/GitAssignment.git
+
+We can also check the remote available by using following command.
+git remote -v
 
 
 Use case:
