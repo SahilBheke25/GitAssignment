@@ -1,1 +1,0 @@
- How to un-stage changes from the staged area. write command for it.

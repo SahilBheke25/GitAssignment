@@ -1,1 +1,0 @@
-What happens when a file is deleted in the main branch and updated in a feature branch, and how is this handled during a merge?

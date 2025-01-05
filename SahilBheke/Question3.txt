@@ -1,1 +1,0 @@
-What does the git `ls-files` command do, and what information does its output provide regarding the state of files in a Git repository?
